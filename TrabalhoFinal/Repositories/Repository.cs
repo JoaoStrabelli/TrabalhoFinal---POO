@@ -33,7 +33,7 @@ namespace SalesManagement.Repositories
             _dbContext.SaveChanges();
         }
 
-        public void Delete(int id)
+        public void Delete(long id)
         {
             T? entidade = GetById(id);
             if (entidade != null)
@@ -43,7 +43,7 @@ namespace SalesManagement.Repositories
             }
         }
 
-        public T? GetById(int id)
+        public T? GetById(long id)
         {
             return _dbSet.Find(id);
         }

@@ -4,8 +4,8 @@ namespace SalesManagement.Interfaces
         {
             void Create(T entidade);
             void Update(T entidade);
-            void Delete(int id);
-            T? GetById(int id);
+            void Delete(long id);
+            T? GetById(long id);
             List<T> GetAll();
         }
 }

@@ -34,5 +34,10 @@ namespace SalesManagement.Models
             set { _telefone = value; }
         }
 
+        public override string ToString()
+        {
+            return $"{Id}\n{Nome}\n{Sobrenome}\n{Endereco}\n{Telefone}";
+        }
+
     }
 }

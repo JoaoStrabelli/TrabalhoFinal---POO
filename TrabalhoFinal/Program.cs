@@ -1,4 +1,7 @@
-﻿using MySql.Data.MySqlClient;
+﻿using SalesManagement.Repositories;
+using SalesManagement.Models;
+using SalesManagement.Interfaces;
+using MySql.Data.MySqlClient;
 
 namespace SalesManagement
 {
@@ -7,7 +10,7 @@ namespace SalesManagement
 
         static void Main(string[] args)
         {
-            string connectionString = "server=localhost;database=gerenciamentopedidoscomida;user=root;password=;";
+            string connectionString = "server=localhost;database=salesmanagement;user=root;password=;";
             
             MySqlConnection connection = new MySqlConnection(connectionString);
 
@@ -33,8 +36,18 @@ namespace SalesManagement
                 Console.WriteLine("Erro ao conectar ao banco de dados: " + ex.Message);
             }
             
+            IRepository<Cliente> clienteRepository = new Repository<Cliente>();
+            Cliente cliente = new Cliente
+            {
+                Id = 1,
+                Nome = "João",
+                Sobrenome = "Strabelli",
+                Endereco = "No meu coração",
+                Telefone = "123456789"
+            };
+            clienteRepository.Delete(1);
             bool continuar = true;
-            do
+            /*do
             {
                 Console.Clear();
                 Console.WriteLine("1 - Gerenciar produtos");
@@ -77,7 +90,7 @@ namespace SalesManagement
                 }
                 Console.WriteLine("Pressione qualquer tecla para continuar...");
                 Console.ReadKey();
-            } while (continuar);
+            } while (continuar);*/
         }
 
 
