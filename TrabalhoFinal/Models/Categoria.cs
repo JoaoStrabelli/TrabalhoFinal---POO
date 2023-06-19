@@ -2,7 +2,7 @@ namespace SalesManagement
 {
     public class CategoriaModel
     {
-        public long? CategoriaID { get; set; }
+        public long? ID { get; set; }
         public string Nome { get; set; } = string.Empty;
     }
 }

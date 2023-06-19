@@ -2,7 +2,7 @@ namespace SalesManagement
     {
         public class ProdutoModel
         {
-            public long? ProdutoID { get; set; }
+            public long? Id { get; set; }
             public string Nome { get; set; } = string.Empty;
             public double Preco { get; set; }
             public long Estoque { get; set; }
