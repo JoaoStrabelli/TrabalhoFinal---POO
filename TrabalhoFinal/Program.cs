@@ -7,6 +7,32 @@ namespace SalesManagement
 
         static void Main(string[] args)
         {
+            string connectionString = "server=localhost;database=gerenciamentopedidoscomida;user=root;password=;";
+            
+            MySqlConnection connection = new MySqlConnection(connectionString);
+
+            try
+            {
+                connection.Open();
+                Console.WriteLine("Conexão com o banco de dados estabelecida com sucesso.");
+
+                string query = "SELECT SYSDATE() AS SYSDATE";
+                MySqlCommand comando = new MySqlCommand(query, connection);
+
+                using (MySqlDataReader reader = comando.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        DateTime sysDate = reader.GetDateTime("SYSDATE");
+                        Console.WriteLine(sysDate);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro ao conectar ao banco de dados: " + ex.Message);
+            }
+            
             bool continuar = true;
             do
             {
