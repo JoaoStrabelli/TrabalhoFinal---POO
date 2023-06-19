@@ -1,4 +1,4 @@
-namespace SalesManagement
+namespace SalesManagement.Models
 {
     public class Cliente
     {
@@ -17,11 +17,11 @@ namespace SalesManagement
             get { return _id; }
             set { _id = value; }
         }
-        public long Nome{
+        public string Nome{
             get { return _nome; }
             set { _nome = value; }
         }
-        public long Sobrenome{
+        public string Sobrenome{
             get { return _sobrenome; }
             set { _sobrenome = value; }
         }

@@ -1,4 +1,4 @@
-namespace GerenciamentoPedidosComida.Interfaces
+namespace SalesManagement.Interfaces
 {  
     public interface IRepository<T>
         {

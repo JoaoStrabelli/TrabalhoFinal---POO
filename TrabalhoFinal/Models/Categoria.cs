@@ -1,4 +1,4 @@
-namespace SalesManagement
+namespace SalesManagement.Models
 {
     public class Categoria
     {

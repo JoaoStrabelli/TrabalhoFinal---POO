@@ -1,6 +1,6 @@
-CREATE DATABASE gerenciamentopedidoscomida;
+CREATE DATABASE SalesManagement;
 
-USE GerenciamentoPedidosComida;
+USE SalesManagement;
 
 CREATE TABLE Cliente (
 Id INT NOT NULL AUTO_INCREMENT,

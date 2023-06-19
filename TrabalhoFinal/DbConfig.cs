@@ -1,7 +1,7 @@
-using GerenciamentoPedidosComida.Models;
+using SalesManagement.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace GerenciamentoPedidosComida.Migrations
+namespace SalesManagement.Migrations
 {
     public class ApplicationDbContext : DbContext
     {
@@ -13,21 +13,13 @@ namespace GerenciamentoPedidosComida.Migrations
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-            {
-                modelBuilder.Entity<ItemPedido>().HasKey(ip => new { ip.PedidoId, ip.PratoId });
-                modelBuilder.Entity<Avaliacao>().ToTable("Avaliacao");
-                modelBuilder.Entity<Cliente>().ToTable("Cliente");
-                modelBuilder.Entity<ItemPedido>().ToTable("ItemPedido");
-                modelBuilder.Entity<Pedido>().ToTable("Pedido");
-                modelBuilder.Entity<Prato>().ToTable("Prato");
-                modelBuilder.Entity<Restaurante>().ToTable("Restaurante");
-                
-                modelBuilder.Entity<Avaliacao>().Property(c => c.Comentario).IsRequired(false); // Permite valores nulos
+            {   
+                modelBuilder.Entity<PedidoProduto>().HasKey(ip => new { ip.PedidoId, ip.ProdutoId });
             }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("Server=localhost; Database=gerenciamentopedidoscomida; User id=root; Password=");
+            optionsBuilder.UseMySQL("Server=localhost; Database=salesmanagement; User id=root; Password=");
         }
     }
 }

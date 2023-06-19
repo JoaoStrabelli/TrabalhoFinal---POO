@@ -2,12 +2,12 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using GerenciamentoPedidosComida;
-using GerenciamentoPedidosComida.Models;
-using GerenciamentoPedidosComida.Interfaces;
-using GerenciamentoPedidosComida.Migrations;
+using SalesManagement;
+using SalesManagement.Models;
+using SalesManagement.Interfaces;
+using SalesManagement.Migrations;
 
-namespace GerenciamentoPedidosComida.Repositories
+namespace SalesManagement.Repositories
 {
 
     public class Repository<T> : IRepository<T> where T : class
@@ -51,12 +51,6 @@ namespace GerenciamentoPedidosComida.Repositories
         public List<T> GetAll()
         {
             return _dbSet.ToList();
-        }
-
-        public bool VerifyLogin(string email, string senha)
-        {
-            var usuario = _dbContext.Clientes.FirstOrDefault(u => u.Email == email && u.Senha == senha);
-            return usuario != null;
         }
     }
 }
