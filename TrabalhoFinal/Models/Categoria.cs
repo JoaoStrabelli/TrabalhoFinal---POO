@@ -1,6 +1,6 @@
 namespace SalesManagement
 {
-    public class CategoriaModel
+    public class Categoria
     {
         private long _id;
         public string _nome;

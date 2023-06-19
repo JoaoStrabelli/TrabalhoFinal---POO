@@ -1,11 +1,11 @@
 namespace SalesManagement
 {
-    public class PedidoModel
+    public class Pedido
     {
         public long? Id { get; set; }
         public DateTime Data { get; set; }
-        public ClienteModel? Cliente { get; set; }
-        public StatusPedido Status { get; set; } = StatusPedido.Processando;
+        public long ClienteId { get; set; }
+        public string Status { get; set; }
         public double Total { get; set; }
     }
 }

@@ -7,6 +7,5 @@ namespace SalesManagement
             public double Preco { get; set; }
             public long Estoque { get; set; }
             public Categoria Categoria { get; set; }
-            public static readonly List<ProdutoModel> produtos = new List<ProdutoModel>();
         }
     }

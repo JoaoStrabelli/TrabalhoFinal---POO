@@ -1,6 +1,6 @@
 namespace SalesManagement
 {
-    public class ClienteModel
+    public class Cliente
     {
         public long? Id { get; set; }
         public string Nome { get; set; } = string.Empty;
