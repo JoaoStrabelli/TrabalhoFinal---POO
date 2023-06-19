@@ -1,8 +1,8 @@
 namespace SalesManagement
 {
-    public class PedidoProdutoModel
+    public class PedidoProduto
     {
-        public ProdutoModel Produto { get; set; }
+        public Produto Produto { get; set; }
         public int Quantidade { get; set; }
         public double Subtotal
         {
