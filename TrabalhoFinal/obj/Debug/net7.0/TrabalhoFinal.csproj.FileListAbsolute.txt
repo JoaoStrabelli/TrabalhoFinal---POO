@@ -1,0 +1,15 @@
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\bin\Debug\net7.0\TrabalhoFinal.exe
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\bin\Debug\net7.0\TrabalhoFinal.deps.json
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\bin\Debug\net7.0\TrabalhoFinal.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\bin\Debug\net7.0\TrabalhoFinal.dll
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\bin\Debug\net7.0\TrabalhoFinal.pdb
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.csproj.AssemblyReference.cache
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.dll
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\refint\TrabalhoFinal.dll
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.pdb
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\TrabalhoFinal.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\UTFPR\3 semestre\Programação Orientada ao Objeto\TrabalhoFinal\TrabalhoFinal---POO\TrabalhoFinal\obj\Debug\net7.0\ref\TrabalhoFinal.dll
